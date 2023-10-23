@@ -154,12 +154,12 @@
 				</VBox>
 				<VBox alignment="BOTTOM_LEFT" prefHeight="167.0" prefWidth="149.0">
 					<children>
-						<Hyperlink alignment="CENTER" focusTraversable="false" layoutX="55.0" layoutY="153.0" text=" Reviews" textFill="#66fcf1">
+						<Hyperlink alignment="CENTER" focusTraversable="false" layoutX="55.0" layoutY="153.0" onAction="#reviewScene" text=" Reviews" textFill="#66fcf1">
 							<font>
 								<Font name="System Bold" size="16.0" />
 							</font>
 						</Hyperlink>
-						<Hyperlink alignment="CENTER" focusTraversable="false" layoutX="10.0" layoutY="144.0" text=" info about us" textFill="#66fcf1">
+						<Hyperlink alignment="CENTER" focusTraversable="false" layoutX="10.0" layoutY="144.0" onAction="#infoAboutUs" text=" info about us" textFill="#66fcf1">
 							<font>
 								<Font name="System Bold" size="16.0" />
 							</font>
